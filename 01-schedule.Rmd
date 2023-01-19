@@ -1,0 +1,51 @@
+# Schedule {#schedule}
+
+All lectures are in SN 3060 unless otherwise stated
+
+- Thurs Jan 5: Introduction
+- Fri Jan 6: Population biology with discrete and continuous variables
+- Tues Jan 10: ---
+- Thurs Jan 12: **CSF 2218** Introduction to Rmarkdown and tidyverse **Assignment 1 is assigned**
+- Fri Jan 13: Geometric growth
+- Tues Jan 17: Exponential growth
+- Thurs Jan 19: **CSF 2218** Numerical solutions and graphing population data **Assignment 2 is assigned**
+- Fri Jan 20: Exponential growth
+- Tues Jan 24: Density dependence and logistic growth
+- Thurs Jan 26: Density dependence and logistic growth **Assignments 1 & 2 are due**
+- Fri Jan 27: Density dependence and logistic growth
+- Tues Jan 31: Discrete time density dependence
+- Thurs Feb 2: **EXAM I** (all material covered to date)
+- Fri Feb 3: Age-structured models
+- Tues Feb 7: Stage-structured models
+- Thurs Feb 9: Stage-structured models
+- Fri Feb 10: Stage-structured models
+- Tues Feb 14: **CSF 2218** Numerical analysis of stage-structured models **Assignment 3 is assigned**
+- Thurs Feb 16: Density dependence in stage-structured models
+- Fri Feb 17: Metapopulation models
+
+WINTER BREAK
+
+- Tues Feb 28: Continuous space models **Assignment 3 is due**
+- Thurs Mar 2: Spatially explicit models in population biology
+- Fri Mar 3: Population dynamics in a warming world
+- Tues Mar 7: Spatially explicit population dynamics in a warming world
+- Thurs Mar 9: Disease dynamics
+- Fri Mar 10: The net reproduction number
+- Tues Mar 14: Overview of models in population biology
+- Thurs Mar 16: **EXAM II** (All material since Exam I)
+- Fri Mar 17: What is evolutionary ecology?
+- Tues Mar 21: Haploid selection model 
+- Thur Mar 23: [Selection coefficients for COVID-19 variants](https://www.zoology.ubc.ca/~otto/Talks/SSE2022_Otto.pdf)
+- Fri Mar 24: **CSF 2218** Estimating selection coefficients **Assignment 4 is assigned**
+- Tues Mar 28: The evolutionary ecology of pathogens
+- Thurs Mar 30: The evolutionary ecology of COVID-19
+- Fri Mar 31:  The evolutionary ecology of hosts **Assignment 4 is due**
+- Tues Apr 3: The evolution of reproductive effort in plants
+- Thurs Apr 5: Evolutionarily stable and convergent stable strategies
+- Fri Apr 6: Review
+
+TBD **FINAL EXAM** (all course material) 
+
+
+
+

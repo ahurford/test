@@ -1,0 +1,7 @@
+# Jan 6: Discrete and continous variables
+
+Reading: Otto, Sarah P., and Troy Day. 2007. A Biologist’s Guide to Mathematical Modeling in Ecology and Evolution, Princeton University Press. [Link](https://ebookcentral-proquest-com.qe2a-proxy.mun.ca/lib/mun/detail.action?docID=768551) **pages 33-38 in Section 2.3**
+
+- Parameters versus variables
+
+- Fitted versus independently estimated parameters

@@ -1,0 +1,82 @@
+--- 
+title: "BIOL 3295: Population and Evolutionary Ecology, Winter 2023"
+author: "Amy Hurford"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+biblio-style: apalike
+link-citations: false 
+---
+
+# Syllabus
+## Instructor Information
+
+Instructor: Dr. Amy Hurford\
+Office: CSF 4338\
+Email: ahurford@mun.ca\
+I will try to reply to emails within 24 hours (excluding evenings, weekends and holidays).
+Office hours: Tuesday 1-2pm; Thursday 1-2pm
+
+## Course Information	
+TR 12.00-12.50pm\
+F 1-1.50pm\
+Classroom: SN3060\ (unless stated otherwise on the schedule)
+
+All Course Announcements will be made on BrightSpace. Should lectures be remote a WebEx link will be provided on BrightSpace.
+
+
+Course description:\
+Population and Evolutionary Ecology is an introduction to the theory and principles of evolutionary ecology and population dynamics. Pre-requisites: BIOL 2600; at least one of BIOL 2010, 2122 or 2210.\
+	
+Course format:\
+The course consists of lectures, 4 data analysis assignments, 2 exams and a final exam.\ 
+
+Course expectations:\
+Please attend lectures and respect the learning environment of other students. If you have COVID-19 please follow university and provincial public health guidelines.\
+	    
+Learning goals:\
+The course content emphasizes a deeper understanding of fewer concepts. You have seen much of the course material in pre-requisite courses. In this course, I will revisit the models, clarify the assumptions and when they are appropriate, and we will fit the models to data to estimate parameters. By the end of the course, I hope that if you were given population data, that you would know the key quantities that you might estimate, and could complete the analysis.
+
+Required Text and Resources:\
+The course materials are online at https://ahurford.github.io/biol-3295-winter-2023/index.html.
+
+Most readings are assigned from two textbooks that are available electronically from the library:
+
+- Vandermeer, J.H., Goldberg, D.E., 2013. Population Ecology: First Principles (Second Edition). Princeton University Press, Princeton, United States. [Link](https://ebookcentral-proquest-com.qe2a-proxy.mun.ca/lib/mun/detail.action?docID=1205619)
+
+- Otto, Sarah P., and Troy Day. 2007. A Biologist’s Guide to Mathematical Modeling in Ecology and Evolution, Princeton University Press. [Link](https://ebookcentral-proquest-com.qe2a-proxy.mun.ca/lib/mun/detail.action?docID=768551)
+
+If you wish to use your own computer for assignments you should install `R` and `RStudio` (see also [here](https://ahurford.github.io/quant-guide-all-courses/install.html)).
+
+## Method of Evaluation
+
+- 4 Assignments - 20%\
+- 2 Exams - 40%\
+- Final Exam - 40%\
+
+Late assignments and missed exams, and final exams will be accommodated as described by University Regulation 6.7.3 and 6.7.5 (see [https://www.mun.ca/regoff/calendar/sectionNo=REGS-0474](https://www.mun.ca/regoff/calendar/sectionNo=REGS-0474) for Regulations). Please discuss missed assignments and exams with me. To accommodate the absence an assignment may be modified or exempted and re-weighted in the grading scheme.
+
+## Additional Policies
+### Accommodation of students with disabilities
+Memorial University of Newfoundland is committed to supporting inclusive education based on the principles of equity, accessibility and collaboration. Accommodations are provided within the scope of the University Policies for the Accommodations for Students with Disabilities see [www.mun.ca/policy/site/policy.php?id=239](www.mun.ca/policy/site/policy.php?id=239). Students who may need an academic accommodation are asked to initiate the request with the Glenn Roy Blundon Centre at the earliest opportunity (see [www.mun.ca/blundon](www.mun.ca/blundon) for more information). 
+
+### Academic misconduct
+Students are expected to adhere to those principles, which constitute proper academic conduct. A student has the responsibility to know which actions, as described under Academic Offences in the University Regulations, could be construed as dishonest or improper. Students found guilty of an academic offence may be subject to a number of penalties commensurate with the offence including reprimand, reduction of grade, probation, suspension or expulsion from the University. For more information regarding this policy, students should refer to University Regulation 6.12. 
+
+### Equity and Diversity
+A safe learning environment will be provided for all students regardless of race, colour, nationality, ethnic origin, social origin, religious creed, religion, age, disability, disfigurement, sex (including pregnancy), sexual orientation, gender identity, gender expression, marital status, family status, source of income or political opinion.
+
+You should not photograph or record myself, teaching assistants, or other students in the class without first obtaining permission. Accommodation will be made for students with special needs.
+
+The sound should be turned off on phones and computers during class.
+
+## Additional Supports
+Resources for additional support can be found at:
+
+- [www.mun.ca/currentstudents/student/](www.mun.ca/currentstudents/student/)
+
+- [https://munsu.ca/resource-centres/](https://munsu.ca/resource-centres/)
+
+
+

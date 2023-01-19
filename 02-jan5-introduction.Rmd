@@ -1,0 +1,20 @@
+# Jan 5: Introduction
+
+- Survey of student computer preferences
+
+## Some questions
+
+- What is a population?
+- What are some definitions of a population that are given in textbooks?
+- In research studies, how are populations discussed in the _Discussion_?
+- How are individuals that comprise the sample selected in the _Methods_ of a research study?
+- List some potential differences between how populations are defined and discussed and the research methods?
+- Why does the definition of a population matter?
+
+## References
+
+Vandermeer, J.H., Goldberg, D.E., 2013. Population Ecology: First Principles (Second Edition). Princeton University Press, Princeton, United States. [Link](https://ebookcentral-proquest-com.qe2a-proxy.mun.ca/lib/mun/detail.action?docID=1205619)
+
+The Princeton Guide to Ecology, edited by Simon A. Levin, et al., Princeton University Press, 2009. ProQuest Ebook Central, [Link](https://ebookcentral-proquest-com.qe2a-proxy.mun.ca/lib/mun/detail.action?docID=557123)
+
+Sacchi, R., Gentilli, A., Razzetti, E., Barbieri, F., 2002. Effects of building features on density and flock distribution of feral pigeons Columba livia var. domestica in an urban environment. Can. J. Zool. 80, 48-54. [Link](https://cdnsciencepub.com/doi/10.1139/z01-202)

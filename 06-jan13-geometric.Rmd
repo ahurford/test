@@ -1,0 +1,38 @@
+# Jan 17: Geometric growth {#pheasant}
+
+## Reading
+
+Download the .pdf of the MSc thesis below and read the Abstract (the first two pages prior to the title page). Pay specific attention to the number of pheasants at different points in time, these might be $N_{t+1}$ and $N_t$ in the geometric growth model formula; and the number of births and deaths that occur, these may help you estimate $\lambda$ in the geoemtric growth formula. Pay attention to the length of time that births and deaths are reported over, and what time of the year the population size is reported.
+
+Newcomb, HR. 1940. [Ring-necked pheasant studies on Protection Island in the Strait of Juan de Fuca](https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/js956j801?locale=en), Washington. MS thesis. Oregon State University. [two pages prior to the title page]
+
+Noteably,
+
+a.	Pheasant chicks are born during the summer.
+b.	In May 1937, 10 pheasants were introduced to the island. Before the next breeding season there were 35.
+c.	November 10, 1938 a census estimated 110 pheasants.
+d.	October 13, 1939 a census estimated 400 pheasants.
+e.	Between the 1938 and 1939 censuses, Newcomb observed that 17 adult birds died.
+f.	During the 1938 nesting season there were 5.86 eggs/nest. 83.57% of eggs hatched.
+g.	During the 1939 nesting season there were 8.73 eggs/nest. 64.58% hatched.
+h.	During the 1939 nesting season: Average number of chicks per clutch was 6.93.$^1$ 
+i.	You can assume the sex ratio is 50:50 male to female. Pheasants are a sexually reproducing species.
+
+$^1$ Note that g. and h. appear to be contradictory.
+
+
+## Questions
+
+This approach is called independent parameter estimation because we will estimate the birth and mortality rates independently of the population size data for different years.
+
+1.	$b > 0$ is the per capita number of births each year. The estimation of $b$ for a geometric growth model is more subtle. First, $b$ is estimated as the number of births (occurring between $t$ and $t+1$), divided by the number of individuals that could have given birth, $N_t$. You might average this value across multiple years if sufficient data are available. Furthermore, to correctly project the future population size, we should consider what we have assumed about survival of the pheasant chicks, given the time step of our model. **Given a.-i. estimate $b$. Write down any assumptions you have made.**
+
+2. Is the probability that pheasants survive from one time step to the next. Estimate $d$.
+
+3.	What is the value of $\lambda$ given your estimate of $b$ and $d$ from previous questions? Is this population is expected to grow over time?
+
+4.	Lets assume that the pheasant population on Protection Island grows geometrically (i.e. exponentially but for a discrete time model) where the geometric growth rate, $\lambda$, is the value that you estimated in question 3. Let $N_0 = 10$ and let $t$ be the number of years since May 1937. Recall that when a population grows geometrically,
+
+\[ N_t = N_0 \lambda^t \]
+
+Use the formula and your answer to 3. to predict the number of pheasants in May 1938, May 1939, May 1940, and May 1950.

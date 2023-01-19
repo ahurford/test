@@ -1,0 +1,111 @@
+--- 
+title: "BIOL 3295, Winter 2023"
+author: "Amy Hurford"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This is a minimal example of using the bookdown package to write a book.
+  The HTML output format for this example is bookdown::gitbook,
+  set in the _output.yml file.
+link-citations: yes
+---
+
+# About
+
+This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
+
+## Usage 
+
+Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
+
+Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
+
+The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
+
+## Render book
+
+You can render the HTML version of this example book without changing anything:
+
+1. Find the **Build** pane in the RStudio IDE, and
+
+1. Click on **Build Book**, then select your output format, or select "All formats" if you'd like to use multiple formats from the same book source files.
+
+Or build the book from the R console:
+
+```{r, eval=FALSE}
+bookdown::render_book()
+```
+
+To render this example to PDF as a `bookdown::pdf_book`, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
+
+## Preview book
+
+As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in "Preview book", or from the R console:
+
+```{r eval=FALSE}
+bookdown::serve_book()
+```
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+<!--chapter:end:index.Rmd-->
+
+# Schedule {#schedule}
+
+- Thurs Jan 5: Introduction
+- Fri Jan 6: Population biology with discrete and continuous variables
+- Tues Jan 10: Introduction to Rmarkdown and tidyverse **Assignment 1 is assigned**
+- Thurs Jan 12: Geometric growth
+- Fri Jan 13: Geometric growth
+- Tues Jan 17: Numerical solutions and graphing population data **Assignment 1 is due & Assignment 2 is assigned**
+- Thurs Jan 19: Exponential growth
+- Fri Jan 20: Exponential growth
+- Tues Jan 24: Density dependence and logistic growth
+**Assignement 2 is due**
+- Thurs Jan 26: Density dependence and logistic growth
+- Fri Jan 27: Density dependence and logistic growth
+- Tues Jan 31: Discrete time density dependence
+- Thurs Feb 2: **EXAM I**
+- Fri Feb 3: Age-structured models
+- Tues Feb 7: Stage-structured models
+- Thurs Feb 9: Stage-structured models
+- Fri Feb 10: Stage-structured models
+- Tues Feb 14: Numerical analysis of stage-structured models **Assignment 3 is assigned**
+- Thurs Feb 16: Density dependence in stage-structured models
+- Fri Feb 17: Metapopulation models
+WINTER BREAK
+- Tues Feb 28: Continuous space models **Assignment 3 is due**
+- Thurs Mar 2: Spatially explicit models in population biology
+- Fri Mar 3: Population dynamics in a warming world
+- Tues Mar 7: Spatially explicit population dynamics in a warming world
+- Thurs Mar 9: Disease dynamics
+- Fri Mar 10: The net reproduction number
+- Tues Mar 14: Overview of models in population biology
+- Thurs Mar 16: **EXAM II**
+- Fri Mar 17: What is evolutionary ecology?
+- Tues Mar 21: Haploid selection model 
+- Thur Mar 23: [Selection coefficients for COVID-19 variants](https://www.zoology.ubc.ca/~otto/Talks/SSE2022_Otto.pdf)
+- Fri Mar 24: Estimating selection coefficients **Assignment 4 is assigned**
+- Tues Mar 28: The evolutionary ecology of pathogens
+- Thurs Mar 30: The evolutionary ecology of COVID-19
+- Fri Mar 31:  The evolutionary ecology of hosts **Assignment 4 is due**
+- Tues Apr 3: The evolution of reproductive effort in plants
+- Thurs Apr 5: Evolutionarily stable and convergent stable strategies
+- Fri Apr 6: Review
+
+
+
+
+
+<!--chapter:end:01-schedule.Rmd-->
+

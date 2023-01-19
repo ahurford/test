@@ -1,0 +1,60 @@
+# PART II - Instructions {#partII .unlisted .unnumbered}
+
+- [Install](https://ahurford.github.io/quant-guide-all-courses/install.html) the `dplyr` package, all dependencies, and load the package.
+
+- For instructions to clean data using tidyverse see [here](https://ahurford.github.io/quant-guide-all-courses/handling-data.html#dplyr)
+
+```{r, include=FALSE,eval=TRUE}
+require(dplyr)
+data = read.csv("https://raw.githubusercontent.com/ahurford/biol-4605-data/main/untidy-portal-data.csv")
+```
+
+First you need to [load](https://ahurford.github.io/quant-guide-all-courses/data-entry.html#loading-or-importing-data) the messy data from [here](https://datacarpentry.org/semester-biology/exercises/Tidy-data-improving-messy-data-SQL/).
+
+It may be helpful to view the data in Excel to understand what it looks like before you import it to `R`.
+
+Use `head(data)` in the Console, or `data` to view your data (where `data` is the name I gave my data).
+
+```{r}
+head(data)
+```
+
+These data are very messy indeed! A helpful command is to know the column names:
+
+```{r}
+colnames(data)
+# Extract a row using tidyverse commands
+dataX =select(data, "X")
+# This is base R syntax to extract specifically rows 6 to 14
+date.collected = dataX$X[6:14]
+# as.Date() is needed for R to treat this variable as a date
+date.collected = as.Date(date.collected, format = "%m/%d/%y")
+# This prints to the output, so you can see what I have done
+date.collected
+```
+
+I will aim to make a data frame with "date collected" and "weight" for Plot 1. Inspecting the data, weight is `"X.4"` for Plot 1.
+
+```{r}
+weight = select(data, "X.4")
+# as.numeric() is needed because otherwise R doesn't recognize these data as numbers - which I need for the multiplication later
+weight = as.numeric(weight$X.4[6:14])
+# Make this into a data frame so I can plot using ggplot
+cleaned.data = data.frame(date.collected, weight)
+# add a column that is a mutated column
+cleaned.data = mutate(cleaned.data,weight.kg = weight/1000)
+# print the cleaned data so we can see what it looks like
+cleaned.data
+```
+
+Now the data is in a format that I can make a plot:
+
+```{r}
+require(ggplot2)
+g1=ggplot(data = cleaned.data, aes(x = date.collected, y = weight.kg)) + 
+  geom_point() +
+  geom_line() +
+  xlab("Date collected")+
+  ylab("Weight in kg")
+g1
+```

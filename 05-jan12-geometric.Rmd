@@ -1,0 +1,19 @@
+# Jan 13: Geometric growth
+
+## Reading
+
+Vandermeer, J.H., Goldberg, D.E., 2013. Population Ecology: First Principles (Second Edition). Princeton University Press, Princeton, United States. **p1-3.** [Link](https://ebookcentral-proquest-com.qe2a-proxy.mun.ca/lib/mun/detail.action?docID=1205619)
+
+- Von Foerster human population become effectively infinite on Nov 13 2026
+
+- Lilly pads replicate once per week. If it take a year for 1/2 a pond to be covered, when will it be completely covered? See also the [wheat and chessboard](https://en.wikipedia.org/wiki/Wheat_and_chessboard_problem)
+
+- $N_{t+1} = \lambda N_t$ equation 3 in [Vandermeer and Goldberg](https://ebookcentral-proquest-com.qe2a-proxy.mun.ca/lib/mun/detail.action?docID=1205619). For what values of $\lambda$ will the population size, $N_t$, grow?
+
+- $N_t = N_0 \lambda^t$ is equation 4 in [Vandermeer and Goldberg](https://ebookcentral-proquest-com.qe2a-proxy.mun.ca/lib/mun/detail.action?docID=1205619) (but written more generally). With $N_0 > 0$ sketch a graph of $N_t$ for different values of $\lambda$. If $N_0 = 0$, sketch a graph of $N_t$.
+
+- If $N_0 = 1.1$ individuals per km$^2$, $\lambda = 2$, what is is the population size at time $t = 10$?
+
+- Consider population growth of pheasants on [Protection Island](#pheasant). If we were to apply the geometric growth model to the pheasant population, what are some assumptions? How might this affect our parameterization (i.e., our estimate of $\lambda$) for the pheasant population?
+
+- How can we understand what $\lambda$ is in a population that has births and deaths?
